@@ -20,21 +20,47 @@
                         <div type="" about="" class="aui-flex b-line">
                             <div class="aui-flex-box">
                                 <h1> 
-23.1.9 v2<br>
+✱ rssSource by.Thomas.    迷迭轻改&收集整理。<br>
+✱ 小说交流群462030508<br>
+A群637775313不加人。若群炸了查看此群群资料找新家。<br>
+✱ 内容取自网络，仅供学习参考，请同学们在24小时内删除。<br>
+————————————————————————————————<br>
+23.2.4 修修改改。前2个列表是迷迭整理，后面列表是搬运一程大佬的订阅源列表。源注释里还有些列表，小伙伴可以自行添删【分类URL】列表内容。<br>
+感谢Thomas大佬的技术支援，感谢关耳大佬，直链生成工具是套用易喵管理的服务器配置+关耳+Thomas的订阅源生搬硬套改出来的。没系统学过实在太难了。<br>
+脑子(甲方)：我想要巴拉巴拉的效果。<br>
+手(乙方)：怎么做？我不会！<br>
+脑子：废物！<br>
+手：你行你上！只会在那哔哔脑浆子给你打出来！<br>
+<br>
+23.1.13 列表链接用了略写，然后补全。（最初原因是单个列表有字数上限，超过字数就会加载列表出错。但后来拆分为2个列表，略写又变得多余了，滑稽）<br>
+<br>
+23.1.9 v2  by.Thomas.  迷迭轻改&收集整理。<br>
 增加可查看更新日期。由于原仓链接较难加载，所以把原仓镜像到agit，日期信息可能会延迟一天。<br>
 非固定链接的源合集的查看日期，仅是源合集上传到仓库时的日期，并非作者发布合集的日期，仅作参考。<br>
-<br>
-23.1.6 v2 请求头改用w页。蓝奏云页面没广告。<br>
-但有些蓝奏云列表无法显示。<br>
-有些有密码的不会修。<br>
-所以去掉了列表中有问题的（不会修，狗头滑稽）。<br>
-<br>
-Thomas::https://wwr.lanzoui.com/b03p9ftpc##read【http://img2.baidu.com/it/u=479193693,3885643124&fm=253&fmt=auto&app=138&f=JPEG?w=307&h=210】<br>
-<br>
-书源订阅 23.1.2  by.Thomas<br>
-在Thomas订阅源基础上修改列表内容。<br>
-<br>
-————————<br>
+————————————————————————————————<br>
+直链实际格式为：https://lanzou.baihe.gay/?type=down&url=【蓝奏云链接】&pwd=【密码】<br>
+————————————————————————————————<br>
+w页请求头<br>
+{"User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 Quark/4.6.6.164"}
+<br><br>
+,{"headers":{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4080.0 Safari/537.36 Edg/82.0.453.0"}}
+<br><br>
+m页请求头<br>
+{"User-Agent": "Mozilla/5.0 (Linux; Android 8.0.0; MI 5s Plus Build/OPR1.170623.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36"}
+<br><br>
+,{"headers":{"User-Agent": "Mozilla/5.0 (Linux; Android 8.0.0; MI 5s Plus Build/OPR1.170623.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36"}}
+<br>————————————————————————————————<br>
+注入js 去广告。这种方式略有瑕疵。<br>
+//是蓝奏云链接时<br>
+if(/lanzou/.test(window.location.href)){<br>
+//屏蔽广告<br>
+Array.from(document.querySelectorAll(`<br>
+	.mt2:last-of-type,<br>
+	.mb>div:nth-last-child(3)<br>
+`),$=>$.style.display='none');<br>
+}<br>
+————————————————————————————————<br>
+
 列表头，第一个链接必须以这个开头<br>
 http://www.baidu.com?wd=<br>
 如：<br>
@@ -60,15 +86,7 @@ https://img.zcool.cn/community/01135c5541e3720000011541d8c834.gif<br>
 喵图标<br>
 http://pp.myapp.com/ma_icon/0/icon_12030265_1659199098/256<br>
 ————————<br>
-else if\(uri\.match\(\/(.*)?/\)\){\s*pwd="(.*)?"\s*}<br>
-<br>
-$(/$1/)?  "$2":<br>
-————————<br>
-✱✱交流群462030508。<br>
-A群637775313不加人。若家炸了查看此群群资料找新家。<br>
-✱✱内容取自网络，仅供学习参考，请同学们在24小时内删除✱✱<br>
-————————<br>
-■橘涂书源分享网盘的配置■<br>
+■橘涂书源分享网盘在阅读app里的配置■<br>
 其他设置->直链上传规则<br>
 ✱上传URL：<br>
 https://tmp.jt12.de/upload.php,{"method":"POST","body": {"file": "fileRequest"},"type": "multipart/form-data"}<br>
@@ -95,10 +113,7 @@ ALL：（包含一些以前的TTS）<br>
 https://jt12.ml/shupan/8c0ff40a7dde9f4245ad11290cf94570.json<br>
 注意：使用在线引擎朗读会耗用大量流量。没流量的就用本地TTS吧，比如讯飞语记。<br>
 <br>
-——————————————<br>
-♟ps2模拟器::https://xianuani.lanzoul.com/b02in8lqj##5fxg<br>
-♟李跳跳去广告::https://wwe.lanzouw.com/b01v0g3wj##1233<br>
-♟ES文件浏览器::https://lanzoui.com/b00ze62be<br>
+
                                 </h1>
 
 
