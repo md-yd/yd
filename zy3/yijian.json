@@ -4,7 +4,7 @@
 "data":[
   {
     "key": "91md.me",
-    "name": "成人05",
+    "name": "92-05",
     "type": 1,
     "api": "http://91md.me/api.php/provide/vod/",
     "group": "tvbox",
@@ -15,7 +15,7 @@
   },
   {
     "key": "api.putaozy.net",
-    "name": "成人08",
+    "name": "92-08",
     "type": 1,
     "api": "http://api.putaozy.net/inc/apijson_vod.php",
     "group": "tvbox",
@@ -26,7 +26,7 @@
   },
   {
     "key": "fhapi9.com",
-    "name": "成人14",
+    "name": "92-14",
     "type": 1,
     "api": "http://fhapi9.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -37,7 +37,7 @@
   },
   {
     "key": "feifei67.com",
-    "name": "成人15",
+    "name": "92-15",
     "type": 1,
     "api": "http://www.feifei67.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -48,7 +48,7 @@
   },
   {
     "key": "api.maozyapi.com",
-    "name": "成人25",
+    "name": "92-25",
     "type": 1,
     "api": "https://api.maozyapi.com/inc/apijson_vod.php",
     "group": "tvbox",
@@ -59,7 +59,7 @@
   },
   {
     "key": "kkzy.me",
-    "name": "成人30",
+    "name": "92-30",
     "type": 1,
     "api": "https://kkzy.me/api.php/provide/vod/",
     "group": "tvbox",
@@ -70,7 +70,7 @@
   },
   {
     "key": "caiji.huakuiapi.com",
-    "name": "成人31",
+    "name": "92-31",
     "type": 1,
     "api": "https://caiji.huakuiapi.com/inc/apijson_vod.php",
     "group": "tvbox",
@@ -81,7 +81,7 @@
   },
   {
     "key": "siwazyw.cc",
-    "name": "成人32",
+    "name": "92-32",
     "type": 1,
     "api": "https://siwazyw.cc/api.php/provide/vod/",
     "group": "tvbox",
@@ -92,7 +92,7 @@
   },
   {
     "key": "api.sexnguon.com",
-    "name": "成人34",
+    "name": "92-34",
     "type": 1,
     "api": "https://api.sexnguon.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -103,7 +103,7 @@
   },
   {
     "key": "lbapi9.com",
-    "name": "成人41",
+    "name": "92-41",
     "type": 1,
     "api": "https://lbapi9.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -114,7 +114,7 @@
   },
   {
     "key": "apittzy.com",
-    "name": "成人46",
+    "name": "92-46",
     "type": 1,
     "api": "https://apittzy.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -125,7 +125,7 @@
   },
   {
     "key": "api.xiuseapi.com",
-    "name": "成人47",
+    "name": "92-47",
     "type": 1,
     "api": "https://api.xiuseapi.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -136,7 +136,7 @@
   },
   {
     "key": "caiji01.com",
-    "name": "成人48",
+    "name": "92-48",
     "type": 1,
     "api": "https://www.caiji01.com/home/cjapi/cfd2/mc10/vod/xml",
     "group": "tvbox",
@@ -147,7 +147,7 @@
   },
   {
     "key": "caiji22.com",
-    "name": "成人49",
+    "name": "92-49",
     "type": 1,
     "api": "https://www.caiji22.com/home/cjapi/klp0/mc10/vod/xml",
     "group": "tvbox",
@@ -158,7 +158,7 @@
   },
   {
     "key": "caiji23.com",
-    "name": "成人50",
+    "name": "92-50",
     "type": 1,
     "api": "https://www.caiji23.com/home/cjapi/kls6/mc10/vod/xml",
     "group": "tvbox",
@@ -169,7 +169,7 @@
   },
   {
     "key": "afasu.com",
-    "name": "成人51",
+    "name": "92-51",
     "type": 1,
     "api": "https://www.afasu.com/api/xml.php",
     "group": "tvbox",
@@ -180,7 +180,7 @@
   },
   {
     "key": "hghhh.com",
-    "name": "成人52",
+    "name": "92-52",
     "type": 1,
     "api": "https://hghhh.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -191,7 +191,7 @@
   },
   {
     "key": "sewozyapi.com",
-    "name": "成人53",
+    "name": "92-53",
     "type": 1,
     "api": "https://sewozyapi.com/api.php/provide/vod/",
     "group": "tvbox",
@@ -202,7 +202,7 @@
   },
   {
     "key": "gdlsp.com",
-    "name": "成人54",
+    "name": "92-54",
     "type": 1,
     "api": "https://www.gdlsp.com/api/xml.php",
     "group": "tvbox",
@@ -213,7 +213,7 @@
   },
   {
     "key": "caiji04.com",
-    "name": "成人55",
+    "name": "92-55",
     "type": 1,
     "api": "https://www.caiji04.com/home/cjapi/cfc7/mc10/vod/xml",
     "group": "tvbox",
@@ -224,7 +224,7 @@
   },
   {
     "key": "api.apilyzy.com",
-    "name": "成人62",
+    "name": "92-62",
     "type": 1,
     "api": "https://api.apilyzy.com/api.php/provide/vod/",
     "group": "tvbox",
