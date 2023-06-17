@@ -495,7 +495,7 @@ a {
 
 .aui-flex-box h1 {
     color: #000000;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 0.2rem;
 }
 
@@ -503,7 +503,7 @@ a {
     color: #b8b8c4;
     border: 1px solid #b8b8c4;
     border-radius: 3px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: normal;
     padding: 0.15rem 0.1rem 0.15rem 0;
@@ -544,14 +544,14 @@ a {
 .aui-flex-box span {
     overflow: hidden;
     display: block;
-    padding-bottom: 0.8rem;
+    padding-bottom: 1rem;
     margin-top: 0.3rem;
 }
 */
 .aui-flex-box span em {
     border: 1px solid #ff4d65;
     color: #ff4d65;
-    font-size: 0.9rem;
+    font-size: 1rem;
     border-radius: 0.15rem;
     font-style: normal;
     padding: 0rem 0.2rem;
