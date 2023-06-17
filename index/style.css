@@ -503,7 +503,7 @@ a {
     color: #b8b8c4;
     border: 1px solid #b8b8c4;
     border-radius: 3px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: normal;
     padding: 0.15rem 0.1rem 0.15rem 0;
@@ -551,7 +551,7 @@ a {
 .aui-flex-box span em {
     border: 1px solid #ff4d65;
     color: #ff4d65;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     border-radius: 0.15rem;
     font-style: normal;
     padding: 0rem 0.2rem;
