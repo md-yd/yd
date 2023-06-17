@@ -549,8 +549,8 @@ a {
 }
 */
 .aui-flex-box span em {
-    border: 1px solid #ff4d65;
-    color: #ff4d65;
+    border: 1px solid #FF0080;
+    color: #FF0080;
     font-size: 1rem;
     border-radius: 0.15rem;
     font-style: normal;
@@ -558,13 +558,23 @@ a {
 }
 
 .aui-flex-box span em:nth-child(2) {
-    border-color: #08acee;
-    color: #08acee;
+    border-color: #FF5722;
+    color: #FF5722;
 }
 
 .aui-flex-box span em:nth-child(3) {
-    border-color: #f7912e;
-    color: #f7912e;
+    border-color: #03A9F4;
+    color: #03A9F4;
+}
+
+.aui-flex-box span em:nth-child(4) {
+    border-color: #24936E;
+    color: #24936E;
+}
+
+.aui-flex-box span em:nth-child(5) {
+    border-color: #0080FF;
+    color: #0080FF;
 }
 
 .aui-flex-box h4 {
