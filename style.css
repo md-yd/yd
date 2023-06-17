@@ -555,6 +555,9 @@ a {
     border-radius: 0.15rem;
     font-style: normal;
     padding: 0rem 0.2rem;
+    word-wrap: normal;
+    word-break: keep-all;
+    white-space: nowrap;
 }
 
 .aui-flex-box span em:nth-child(2) {
