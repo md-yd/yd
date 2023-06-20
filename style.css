@@ -28,19 +28,20 @@ img {
     border: 0;
 }
 
+/*网页总背景颜色、字体颜色#666、#808080*/
 body {
     background: #fff;
-    color: #666;
+    color: #909090;
 }
 
-html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, blockquote, pre, button, fieldset, form, input, legend, textarea, th, td {
+html, body, div, dl, dt, dd, ol, ul, li, h1, p, blockquote, pre, button, fieldset, form, input, legend, textarea, th, td {
     margin: 0;
     padding: 0;
 }
 
 a {
     text-decoration: none;
-    color: #08acee;
+    color: #43A047;
 }
 
 button {
@@ -62,9 +63,7 @@ li {
     list-style: none;
 }
 
-a {
-    color: #666;
-}
+
 
 .clearfix::after {
     clear: both;
@@ -92,15 +91,16 @@ a {
 .r-line:after {
     content: '';
     position: absolute;
-    z-index: 0;
-    top: 0;
-    right: 0;
-    height: 100%;
-    border-right: 1px solid #D9D9D9;
-    -webkit-transform: scaleX(0.5);
-    transform: scaleX(0.5);
-    -webkit-transform-origin: 100% 0;
-    transform-origin: 100% 0;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 3px solid #bbbbbb;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
 }
 
 .b-line {
@@ -115,7 +115,7 @@ a {
     left: 0;
     width: 100%;
     height: 1px;
-    border-bottom: 1px solid #C0C0C0;
+    border-bottom: 1px solid #909090;
     -webkit-transform: scaleY(0.5);
     transform: scaleY(0.5);
     -webkit-transform-origin: 0 100%;
@@ -129,7 +129,7 @@ a {
     -webkit-box-align: center;
     -webkit-align-items: center;
     align-items: center;
-    padding: 5px;
+    padding: 4px;
     position: relative;
 }
 
@@ -140,7 +140,7 @@ a {
     min-width: 0;
     font-size: 14px;
     color: #333;
-    padding: 5px;
+    padding: 4px;
 }
 
 /* 蹇呰甯冨眬鏍峰紡css */
@@ -496,7 +496,8 @@ a {
 
 .aui-flex-box h1 {
     color: #000000;
-    font-size: 1rem;
+background: #C0C0C0;
+    font-size: 0.5rem;
     margin-bottom: 0.2rem;
 }
 
@@ -510,36 +511,6 @@ a {
     padding: 0.15rem 0.1rem 0.15rem 0;
 }
 
-.aui-flex-box h1 em i {
-    background: #b8b8c4;
-    color: #fff;
-    padding: 0.15rem 0.1rem;
-    font-weight: bold;
-    margin-right: 0.1rem;
-    font-style: normal;
-}
-
-.aui-flex-box h2 {
-    color: #424242;
-    font-weight: normal;
-    font-size: 0.85rem;
-    margin-bottom: 0.3rem;
-}
-
-.aui-flex-box h2 em {
-    font-size: 1.2rem;
-    color: #fda54c;
-    font-weight: bold;
-    font-style: normal;
-}
-
-.aui-flex-box h3 {
-    color: #777777;
-    font-size: 0.85rem;
-    font-weight: normal;
-    margin-bottom: 0.3rem;
-}
-
 
 /*
 .aui-flex-box span {
@@ -549,8 +520,8 @@ a {
     margin-top: 0.3rem;
 }
 */
-.aui-flex-box span em {
-    border: 1px solid #FF0080;
+.aui-flex-box span em1 {
+
     color: #FF0080;
     font-size: 1rem;
     border-radius: 0.15rem;
@@ -561,14 +532,17 @@ a {
     white-space: nowrap;
 }
 
-.aui-flex-box span em:nth-child(2) {
-    border-color: #FF5722;
-    color: #FF5722;
-}
+.aui-flex-box span em2 {
 
-.aui-flex-box span em:nth-child(3) {
-    border-color: #03A9F4;
     color: #03A9F4;
+    font-size: 1rem;
+    border-radius: 0.15rem;
+    font-style: normal;
+    padding: 0rem 0.2rem;
+    word-wrap: normal;
+    word-break: keep-all;
+    white-space: nowrap;
+    
 }
 
 .aui-flex-box span em:nth-child(4) {
@@ -581,46 +555,30 @@ a {
     color: #0080FF;
 }
 
-.aui-flex-box h4 {
-    color: #777777;
-    font-size: 0.8rem;
-    font-weight: normal;
-    padding: 10px 8px 10px 0;
-    width: auto;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    word-wrap: normal;
-    word-wrap: break-word;
-    word-break: break-all;
-    position: relative;
-}
+.aui-flex-box span em2 .copy-btn2 {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+   
 
-.aui-flex-box h4 em {
-    font-size: 0.8rem;
-    color: #fda54c;
+    color: #03A9F4;
+    font-size: 0.9rem;
+
     font-style: normal;
+    padding: 0rem 0.2rem;
 }
 
-.aui-flex-box h4:before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-width: 4px 0px 4px 5px;
-    border-style: solid;
-    border-color: transparent transparent transparent #777777;
+.aui-flex-box span em1 .copy-btn1 {
     position: absolute;
-    top: 32%;
-    right: 4px;
-    border-radius: 1px;
-    left: inherit;
-    z-index: 99;
-}
+    right: 86px;
+    top: 4px;
+    
 
-.aui-film-button {
-    position: absolute;
-    right: 15px;
-    top: 20px;
+    color: #FF0080;
+    font-size: 0.9rem;
+
+    font-style: normal;
+    padding: 0rem 0.2rem;
 }
 
 .tab-panel-item .b-line:after {
@@ -628,60 +586,9 @@ a {
     left: 15px;
 }
 
-.aui-film-button button {
-    border-radius: 40px;
-    display: block;
-    border: none;
-    background: -webkit-linear-gradient(left, #ff799e , #fe4d67);
-    /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(right, #ff799e , #fe4d67);
-    /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(right, #ff799e , #fe4d67);
-    /* Firefox 3.6 - 15 */
-    background: linear-gradient(to right, #ff799e , #fe4d67);
-    /* 鏍囧噯鐨勮娉� */
-    color: #fff;
-    font-size: 0.7rem;
-    padding: 0.25rem 0.55rem;
-}
 
-.aui-film-button p {
-    text-align: center;
-    font-size: 0.7rem;
-    color: #999;
-    margin-top: 0.2rem;
-}
 
-.aui-footer {
-    width: 100%;
-    position: relative;
-    z-index: 100;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 7px 5px 7px 5px;
-    background: #fff;
-}
 
-.aui-footer:after {
-    content: '';
-    position: absolute;
-    z-index: 0;
-    top: -1px;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    border-top: 1px solid #e4e4e4;
-    -webkit-transform: scaleY(0.5);
-    transform: scaleY(0.5);
-    -webkit-transform-origin: 0 100%;
-    transform-origin: 0 100%;
-}
 
 .aui-tabBar-item {
     -webkit-box-flex: 1;
