@@ -2,6 +2,7 @@
 html,body {
     color: #333;
     margin: 0;
+    max-width: 600px; 
     height: 100%;
     font-family: "Myriad Set Pro","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -39,9 +40,30 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, p, blockquote, pre, button, fieldse
     padding: 0;
 }
 
+str {
+    text-decoration: none;
+
+line-height: 1.5;
+}
+
+b {
+    text-decoration: none;
+    color: #424242;
+line-height: 1.5;
+}
+
 a {
     text-decoration: none;
-    color: #43A047;
+    color: #FF0080;
+  text-decoration: underline;
+line-height: 2;
+}
+
+.aa {
+    text-decoration: none;
+    color: #03A9F4;
+      text-decoration: underline;
+      line-height: 2;
 }
 
 button {
@@ -139,8 +161,9 @@ li {
     flex: 1;
     min-width: 0;
     font-size: 16px;
-    color: #333;
+    color: #757575;
     padding: 4px;
+    
 }
 
 /* 蹇呰甯冨眬鏍峰紡css */
