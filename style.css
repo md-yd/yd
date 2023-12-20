@@ -1,7 +1,7 @@
 
 html,body {
   color: #333;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   max-width: 600px;
   height: 100%;
@@ -73,12 +73,13 @@ html, body, div, dl, dt, dd, ol, ul, li, h1, p, blockquote, pre, button, fieldse
   transform-origin: 0 100%;
 }
 
+/*————————————————————————————*/
 .aui-flex-box {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   flex: 1;
   min-width: 0;
-  font-size: 20px;
+  font-size: 18px;
   color: #37474F;
   padding: 4px;
 }
